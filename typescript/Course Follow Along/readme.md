@@ -5,4 +5,5 @@ Typescript course follow along
 
 run npm start in cmd line to start lite-server
 
-run tsc <filename>.ts -w to run typescript in watch mode to prevent having to recompile every time a change is made
+* navigate to folder storing all .ts files and run "tsc --init" to create tsconfig.json file
+* afterwords simply running 'tsc -w' to run watch mode for all files now.
